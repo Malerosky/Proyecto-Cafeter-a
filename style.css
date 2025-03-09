@@ -1,3 +1,7 @@
 
 body {}
 
+.main {
+    box-sizing: border-box;
+}
+
