@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: burlywood;
+}
 .header {
     display: flex;
     align-items: center;
@@ -5,6 +10,7 @@
 .header__titulo {
     flex: 1; /*El flex 1 ocupa todo el ancho disponble. La otra opción es width: 100%*/
     text-align: center;
+    font-family: "Emblema One", system-ui;
 }
 .main {
     display: flex;
