@@ -1,7 +1,15 @@
-
-body {}
-
+.header {
+    display: flex;
+    align-items: center;
+}
+.header__titulo {
+    flex: 1; /*El flex 1 ocupa todo el ancho disponble. La otra opción es width: 100%*/
+    text-align: center;
+}
 .main {
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
