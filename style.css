@@ -17,26 +17,47 @@ body {
 }
 .main {
     display: flex;
-    flex-direction: column;
     padding-left: 5%;
+    font-family: "Atma", system-ui;
+}
+
+.div__productos {
+    flex-direction: column;
+}
+
+.div__precios {
+    flex-direction: column;
+}
+
+.subtitulos__precios {
+    visibility: hidden;
+    font-size: 50px
+}
+
+.parrafo__precios {
+    font-size: 50px;
+    margin-top: 10px;   
+    margin-bottom: 5px; 
+    line-height: 1.5;
+}
+
+.subparrafo__precios {
+    visibility: hidden;
+    font-size: 35px;;
 }
 
 .subtitulos {
-    font-family: "Atma", system-ui;
     font-size: 50px;
 }
 
 .parrafo {
-    font-family: "Atma", system-ui;
     font-size: 50px;
-    
     margin-top: 10px;   
     margin-bottom: 5px; 
     line-height: 1.5;   
 }
 
 .subparrafo {
-    font-family: "Atma", system-ui;
     font-size: 35px;
     margin-top: 1px;  
 }
@@ -55,6 +76,6 @@ body {
 .footer__div__uno {
 }
 
-.footer__div__dos {
 
+.footer__div__dos {
 }
