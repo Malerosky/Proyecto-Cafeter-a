@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 
 body {
     background-color: burlywood;
@@ -12,14 +13,48 @@ body {
     flex: 1; /*El flex 1 ocupa todo el ancho disponble. La otra opción es width: 100%*/
     text-align: center;
     font-family: "Emblema One", system-ui;
+    font-size: 80px;
 }
 .main {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
+    padding-left: 5%;
+}
+
+.subtitulos {
+    font-family: "Atma", system-ui;
+    font-size: 50px;
 }
 
 .parrafo {
     font-family: "Atma", system-ui;
+    font-size: 50px;
+    
+    margin-top: 10px;   
+    margin-bottom: 5px; 
+    line-height: 1.5;   
+}
+
+.subparrafo {
+    font-family: "Atma", system-ui;
+    font-size: 35px;
+    margin-top: 1px;  
+}
+
+.footer {
+    width: 100%;
+    background-color: #97420f;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.footer__div__uno {
+}
+
+.footer__div__dos {
+
 }
