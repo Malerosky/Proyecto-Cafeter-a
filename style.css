@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 body {
-    background-color: burlywood;
+    background-color: #C08B5C;
 }
 .header {
     display: flex;
@@ -13,57 +13,69 @@ body {
     text-align: center;
     font-family: "Emblema One", system-ui;
     font-size: 80px;
+    color:#481E14;
 }
 .main {
     display: flex;
     padding-left: 5%;
     font-family: "Atma", system-ui;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    color:#FED8B1;
 }
 .div__productos {
+    display: flex;
     flex-direction: column;
-    width: 120%;
+    font-size: 40px;
+    width: 50%; /* Cada div ocupa la mitad del ancho disponible */
 }
 .div__precios {
+    display: flex;
     flex-direction: column;
-    margin-left: auto; 
-    text-align: right;
+    text-align: left;
+    font-size: 40px;
+    width: 50%; /* Cada div ocupa la mitad del ancho disponible */
 }
 .subtitulos__precios {
-    visibility: hidden;
-    font-size: 50px
+    visibility: hidden; 
 }
 .parrafo__precios {
-    font-size: 50px;
     margin-top: 10px;   
     margin-bottom: 5px; 
     line-height: 1.5;
 }
 .subparrafo__precios {
     visibility: hidden;
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 1px;
 }
 .subtitulos {
-    font-size: 50px;
+   color:#481E14;
 }
 .parrafo {
-    font-size: 50px;
+    
     margin-top: 10px;   
     margin-bottom: 5px; 
     line-height: 1.5;   
+    
 }
 .subparrafo {
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 1px;  
+    border-bottom: 2px solid ;
 }
 .footer {
     width: 100%;
-    background-color: #97420f;
+    background-color: #481E14;
+    color:#FED8B1;
     font-family: "Roboto Flex", sans-serif;
     font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
     
 }
 .footer__div__uno {
