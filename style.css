@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
-
 body {
     background-color: burlywood;
 }
@@ -20,48 +19,43 @@ body {
     padding-left: 5%;
     font-family: "Atma", system-ui;
 }
-
 .div__productos {
     flex-direction: column;
+    width: 120%;
 }
-
 .div__precios {
     flex-direction: column;
+    margin-left: auto; 
+    text-align: right;
 }
-
 .subtitulos__precios {
     visibility: hidden;
     font-size: 50px
 }
-
 .parrafo__precios {
     font-size: 50px;
     margin-top: 10px;   
     margin-bottom: 5px; 
     line-height: 1.5;
 }
-
 .subparrafo__precios {
     visibility: hidden;
-    font-size: 35px;;
+    font-size: 35px;
+    margin-top: 1px;
 }
-
 .subtitulos {
     font-size: 50px;
 }
-
 .parrafo {
     font-size: 50px;
     margin-top: 10px;   
     margin-bottom: 5px; 
     line-height: 1.5;   
 }
-
 .subparrafo {
     font-size: 35px;
     margin-top: 1px;  
 }
-
 .footer {
     width: 100%;
     background-color: #97420f;
@@ -72,10 +66,7 @@ body {
     justify-content: space-evenly;
     
 }
-
 .footer__div__uno {
 }
-
-
 .footer__div__dos {
 }
